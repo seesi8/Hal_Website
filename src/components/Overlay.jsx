@@ -68,7 +68,7 @@ export const Overlay = () => {
                     </h1>
                 </Section>
                 <Section start right opacity={opacityLastSection}>
-                    <h1 className="font-semibold font-rubik section-title text-right">
+                    <h1 className="font-semibold font-rubik section-title text-right pt-10">
                         The Ballbert
                         <br />
                         Voice Assistant

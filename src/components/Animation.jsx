@@ -24,6 +24,11 @@ export const Animation = () => {
 
         CURRENT_FLOOR = FLOORS.findIndex((floor) => current_scroll <= floor);
 
+        if (CURRENT_FLOOR == -1) {
+            CURRENT_FLOOR = MAX_FLOOR - 1;
+            current_scroll = 1;
+        }
+
         setUpdatedScroll(
             (current_scroll - CURRENT_FLOOR / MAX_FLOOR) * MAX_FLOOR
         );
