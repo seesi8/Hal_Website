@@ -1,0 +1,45 @@
+#root {
+    width: 100vw;
+    height: 100vh;
+    background-color: #d9afd9;
+    background-image: linear-gradient(0deg, #424242 0%, #000000 100%);
+}
+
+.section > section > div > div {
+    color: White;
+    font-family: "Rubik", sans-serif;
+}
+
+.icons {
+    position: absolute;
+    left: 5rem;
+    max-width: calc(20vw + 31rem);
+    max-height: calc(40% + 20rem);
+    aspect-ratio: 4408 / 2239;
+    top: 30%;
+    z-index: -1;
+}
+
+.outlineImage {
+    position: absolute;
+    right: 15vw;
+    max-width: 50vw;
+    max-height: 75%;
+    aspect-ratio: 986 / 1097;
+    bottom: 20%;
+    z-index: -1;
+}
+
+.section-title {
+    font-size: calc(4vw + 2rem);
+    line-height: 1;
+}
+
+@media (orientation: portrait) {
+    .icons {
+        left: 0.2rem;
+        max-width: calc(100vw - 1.4rem);
+        max-height: 50%;
+        top: calc(41.5rem - 60vw);
+    }
+}
