@@ -40,6 +40,11 @@
         left: 0.2rem;
         max-width: calc(100vw - 1.4rem);
         max-height: 50%;
-        top: calc(41.5rem - 60vw);
+        top: calc(21.5rem - 40vw);
+    }
+
+    .outlineImage {
+        right: 25vw;
+        bottom: 30%;
     }
 }

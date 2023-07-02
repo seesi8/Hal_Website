@@ -11,7 +11,7 @@ const Section = (props) => {
                     : props.start
                     ? "justify-start"
                     : "justify-center"
-            } p-10 relative ${props.right ? "items-end" : "items-start"} `}
+            } relative ${props.right ? "items-end" : "items-start"} `}
             style={{
                 opacity: props.opacity,
             }}
