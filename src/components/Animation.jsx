@@ -53,7 +53,11 @@ export const Animation = () => {
             ) : CURRENT_FLOOR >= 3 ? (
                 isVertical ? (
                     <Ballbert
-                        position={[25, -10, 18]}
+                        position={[
+                            updatedScroll * 225 - 200,
+                            updatedScroll * -30 + 20,
+                            updatedScroll * -52 + 70,
+                        ]}
                         scale={[
                             (width / height) * 0.9 + 0.3,
                             (width / height) * 0.9 + 0.3,
@@ -61,6 +65,14 @@ export const Animation = () => {
                         ]}
                     />
                 ) : (
+                    // <Ballbert
+                    //     position={[25, -10, 18]}
+                    //     scale={[
+                    //         (width / height) * 0.9 + 0.3,
+                    //         (width / height) * 0.9 + 0.3,
+                    //         (width / height) * 0.9 + 0.3,
+                    //     ]}
+                    // />
                     // <Ballbert position={[30, -10, 18]} />
                     <Ballbert
                         position={[
