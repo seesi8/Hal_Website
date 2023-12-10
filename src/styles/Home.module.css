@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+
+.image{
+  position: relative;
+  aspect-ratio: 16/9;
+  width: 70vw;
+}
+
+.main > h1{
+  font-size: 2rem;
+}
